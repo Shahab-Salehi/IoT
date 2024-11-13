@@ -590,28 +590,28 @@ def main():
 
 
 
-    plt.hist(c1,bins=math.ceil((MAX-MIN+1)/3),density=True)
-    plt.xlabel('Temperature (C)')
-    plt.ylabel('Frequency (%)')
-    plt.title('Frequency chart')
+  #  plt.hist(c1,bins=math.ceil((MAX-MIN+1)/3),density=True)
+   # plt.xlabel('Temperature (C)')
+   # plt.ylabel('Frequency (%)')
+   # plt.title('Frequency chart')
 
     #plt.hist(c1,density=True)
-    plt.xlim([MIN, MAX])
+   # plt.xlim([MIN, MAX])
 
-    plt.show()
+   # plt.show()
 
-    plt.plot(c11)
-    plt.ylabel('Temperature (C)')
-    plt.xlabel('Day')
-    plt.title('Temperature changes over 365 days')
-    plt.show()
+   # plt.plot(c11)
+   # plt.ylabel('Temperature (C)')
+   # plt.xlabel('Day')
+   # plt.title('Temperature changes over 365 days')
+   # plt.show()
 
-    Ndata=96341
-    plt.bar(['Clustered','Normal'],[(x/(Ndata))*100,(Ndata/Ndata)*100])
-    plt.ylabel('Energy')
-    plt.xlabel('Data')
-    plt.title('Energy consumption with SDN')
-    plt.show()
+   # Ndata=96341
+   # plt.bar(['Clustered','Normal'],[(x/(Ndata))*100,(Ndata/Ndata)*100])
+   # plt.ylabel('Energy')
+   # plt.xlabel('Data')
+   # plt.title('Energy consumption with SDN')
+   # plt.show()
 
 
 
